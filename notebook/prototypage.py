@@ -20,7 +20,7 @@ import docx
 data_folder = "C:\\Chatbot-RAG\\data\\TRANS_TXT"
 db_connection_str = "dbname='rag_chatbot' user='postgres' password='safa' host='localhost' port='5433'"
 embedding_model_name = "BAAI/bge-large-en"
-genai.configure(api_key="AIzaSyDTWx3WuXicNDy9cgAZaj4wE9AyFv9qg-Q")  # Ton API Key
+genai.configure(api_key="")  # Ton API Key
 
 # -------------------------------
 # Initialize embedding model
