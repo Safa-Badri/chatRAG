@@ -1,0 +1,8 @@
+.env
+venv/
+# Ignore Visual Studio user/temporary files
+.vs/
+*.db
+*.dll
+
+venv/Lib/site-packages/torch/lib/torch_cpu.dll
